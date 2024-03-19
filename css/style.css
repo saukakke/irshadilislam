@@ -1,0 +1,93 @@
+* {
+	font-family: poppins, serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.heading {
+	border-bottom: 3px solid #007bff;
+	color: #5d5d5d;
+}
+
+.social .fab {
+	margin-top: 10px;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    color: #007bff;
+    font-size: 14px;
+    -webkit-transition: all all 0.5s ease-out 0s;
+    -moz-transition: all all 0.5s ease-out 0s;
+    -ms-transition: all all 0.5s ease-out 0s;
+    -o-transition: all all 0.5s ease-out 0s;
+    transition: all all 0.5s ease-out 0s;
+}
+
+.contact_info .single_info {
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact_info .single_info .icon {
+    font-size: 12px;
+    color: white;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.contact_info .single_info .info p a, .footer_nav li a {
+    color: white;
+}
+
+.contact_info .single_info .info p span {
+    display: block;
+}
+
+.deneb_footer .copyright_area {
+    padding: 10px 0;
+}
+
+.copyright_text {
+    text-align: center;
+}
+
+.copyright_text p, .info{
+    color: white;
+}
+
+.copyright_text p span {
+    color: white;
+}
+
+.widegt_about p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+#textarea {
+	resize: none;
+	min-height: 100px;
+}
+
+.footer_nav {
+	list-style-type: none;
+}
+
+footer h4 {
+	color: white;
+}
